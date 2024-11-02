@@ -10,28 +10,23 @@ const protectedRoutes = createRouteMatcher([
 ]);
 
 export default clerkMiddleware(async (auth, req) => {
-  const authResult = await auth(); // Wait for the auth to resolve
-  console.log('Auth Result:', authResult); // Log the auth result for debugging
+  const authResult = await auth(); 
+  console.log('Auth Result:', authResult); 
   
-  const signInPath = '/sign-in'; // Define sign-in path
-  const signUpPath = '/sign-up'; // Define sign-up path
+  const signInPath = '/sign-in'; 
+  const signUpPath = '/sign-up'; 
 
-  // Check if the user is authenticated
-  const isAuthenticated = !!authResult.userId; // Use a truthy check to determine authentication
-
+  const isAuthenticated = !!authResult.userId; 
   if (protectedRoutes(req)) {
     if (!isAuthenticated) {
-      console.log('User not authenticated, redirecting to sign-in.'); // Log the redirect action
-      // Redirect to sign-in if the user is not signed in
+      console.log('User not authenticated, redirecting to sign-in.'); 
       return authResult.redirectToSignIn();
     }
   }
 
-  // If the user is authenticated and the request is for the sign-in or sign-up page,
-  // redirect to the homepage
   if (isAuthenticated && (req.url === signInPath || req.url === signUpPath)) {
-    console.log('User authenticated, redirecting to homepage.'); // Log the redirect action
-    return Response.redirect('/app/root/home', 302); // Adjust the URL according to your routing structure
+    console.log('User authenticated, redirecting to homepage.'); 
+    return Response.redirect('/app/root/home', 302);
   }
 });
 
