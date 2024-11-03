@@ -1,7 +1,4 @@
 <div align="center">
-  <br />
-  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/post-y3TDlWy4rb6Qi8xnHWrug5m8OT0UDG.png" alt="MILES Project Banner" width="100%">
-  <br />
 
   <h1>MILES: Next-Gen Video Conferencing</h1>
 
@@ -12,6 +9,10 @@
     <img src="https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   </div>
+
+  <br />
+  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/post-y3TDlWy4rb6Qi8xnHWrug5m8OT0UDG.png" alt="MILES Project Banner" width="100%">
+  <br />
 </div>
 
 ## 🌟 About MILES
