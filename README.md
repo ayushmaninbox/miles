@@ -26,8 +26,7 @@ MILES is a cutting-edge video conferencing platform built with the latest web te
 3. [🏁 Getting Started](#getting-started)
 4. [📘 Usage Guide](#usage-guide)
 5. [🧰 Development](#development)
-6. [🤝 Contributing](#contributing)
-7. [📄 License](#license)
+6. [📄 License](#license)
 
 ## 🚀 Features <a name="features"></a>
 
@@ -102,7 +101,7 @@ yarn dev
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
 
-## 📘 Usage Guide `<a name="usage-guide">``</a>`
+## 📘 Usage Guide <a name="usage-guide"></a>
 
 1. **Sign Up/Login**: Use Clerk authentication to create an account or log in.
 2. **Create a Meeting**: Click on "New Meeting" to start an instant meeting or schedule one for later.
@@ -112,7 +111,7 @@ yarn dev
 
 For more detailed instructions, please refer to our [User Guide](docs/USER_GUIDE.md).
 
-## 🧰 Development `<a name="development">``</a>`
+## 🧰 Development <a name="development"></a>
 
 ### Folder Structure
 
@@ -142,7 +141,7 @@ miles-project/
 - `lib/`: Utility functions and custom hooks
 - `styles/`: Global styles and Tailwind CSS configuration
 
-## 📄 License `<a name="license">``</a>`
+## 📄 License <a name="license"></a>
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
