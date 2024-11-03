@@ -59,9 +59,11 @@ MILES is a cutting-edge video conferencing platform built with the latest web te
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/ayushmaninbox/miles.git
-   cd miles
+   
+```bash
+git clone https://github.com/ayushmaninbox/miles.git
+cd miles
+```
 
 2. Install dependencies:
 
