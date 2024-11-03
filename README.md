@@ -70,7 +70,7 @@ cd miles
 
 ```shellscript
 npm install
-# or
+    or
 yarn install
 ```
 
@@ -79,7 +79,7 @@ yarn install
 Create a `.env.local` file in the root directory and add the following:
 
 ```plaintext
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= ***your_clerk_publishable_key***
 CLERK_SECRET_KEY= ***your_clerk_secret_key***
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
@@ -94,7 +94,7 @@ STREAM_SECRET_KEY= ***your_stream_secret_key***
 
 ```shellscript
 npm run dev
-# or
+   or
 yarn dev
 ```
 
