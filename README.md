@@ -86,6 +86,8 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 NEXT_PUBLIC_STREAM_API_KEY= ***your_stream_api_key***
 STREAM_SECRET_KEY= ***your_stream_secret_key***
+
+NEXT_PUBLIC_BASE_URL= ***your_public_base_url***
 ```
 
 
